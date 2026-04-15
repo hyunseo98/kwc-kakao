@@ -15,7 +15,12 @@ import {
   Pin,
   BellOff,
   Image as ImageIcon,
-  ChevronDown
+  ChevronDown,
+  UserPlus,
+  Ban,
+  AlertTriangle,
+  Phone,
+  PhoneMissed
 } from 'lucide-react';
 
 // --- Mock Data ---
@@ -23,28 +28,28 @@ const MOCK_CHATS = [
   {
     id: '1',
     name: 'BAPE',
-    members: 3,
+    members: 5,
     lastMessage: 'ㅇ',
     time: '3월 11일',
     unread: 0,
     isPinned: true,
-    isMuted: true,
+    isMuted: false,
     avatars: ['https://i.pravatar.cc/150?u=1', 'https://i.pravatar.cc/150?u=2'],
   },
   {
     id: '2',
     name: 'BAPE ENT.',
-    members: 3,
+    members: 8,
     lastMessage: '사진 8장을 보냈습니다.',
     time: '2025. 11. 26.',
     unread: 0,
     isPinned: true,
-    isMuted: false,
+    isMuted: true,
     avatars: ['https://i.pravatar.cc/150?u=3', 'https://i.pravatar.cc/150?u=4', 'https://i.pravatar.cc/150?u=5'],
   },
   {
     id: '3',
-    name: '💗',
+    name: '바보',
     members: 0,
     lastMessage: '뭐해?',
     time: '오전 8:05',
@@ -92,18 +97,18 @@ const MOCK_CHATS = [
 const MOCK_MESSAGES = {
   '1': [
     { id: 'm1', type: 'system', text: '2024년 3월 11일 월요일' },
-    { id: 'm2', senderId: 'user1', senderName: '너굴맨', avatar: 'https://i.pravatar.cc/150?u=1', text: '아니 ㅈㄴ황당해', time: '오후 10:07', isMe: false, unreadCount: 1 },
-    { id: 'm3', senderId: 'user1', senderName: '너굴맨', avatar: 'https://i.pravatar.cc/150?u=1', text: '10년동안 당연히 날 책임져야겠지', time: '오후 10:08', isMe: false, unreadCount: 1 },
-    { id: 'm4', senderId: 'user1', senderName: '너굴맨', avatar: 'https://i.pravatar.cc/150?u=1', text: '30대가되면 더 치열하게 나를 책임져야겠지 ㅅ발', time: '오후 10:08', isMe: false, unreadCount: 1 },
-    { id: 'm5', senderId: 'user1', senderName: '너굴맨', avatar: 'https://i.pravatar.cc/150?u=1', text: '뭔 내 인생흐름을 간단정리했다는거야? 그냥 모든사람의 인생이그렇잖아', time: '오후 10:08', isMe: false, unreadCount: 1 },
-    { id: 'm6', senderId: 'user1', senderName: '너굴맨', avatar: 'https://i.pravatar.cc/150?u=1', text: '40대가되면더더욱치열하게나를책임지고노후를대비하겠지', time: '오후 10:09', isMe: false, unreadCount: 1 },
-    { id: 'm7', senderId: 'user1', senderName: '너굴맨', avatar: 'https://i.pravatar.cc/150?u=1', text: '존나당연한말하고릿어', time: '오후 10:09', isMe: false, unreadCount: 1 },
-    { id: 'm8', senderId: 'user2', senderName: '🤓 사이코패스', avatar: 'https://i.pravatar.cc/150?u=2', text: 'ㅋㅋㅋㅋㅋㅋㅋ', time: '오후 10:10', isMe: false, unreadCount: 1 },
-    { id: 'm9', senderId: 'user2', senderName: '🤓 사이코패스', avatar: 'https://i.pravatar.cc/150?u=2', text: '장점고 ㅏ 단점', time: '오후 10:10', isMe: false, unreadCount: 1 },
-    { id: 'm10', senderId: 'user2', senderName: '🤓 사이코패스', avatar: 'https://i.pravatar.cc/150?u=2', text: '말해달라고해봐', time: '오후 10:10', isMe: false, unreadCount: 1 },
-    { id: 'm11', senderId: 'user1', senderName: '너굴맨', avatar: 'https://i.pravatar.cc/150?u=1', text: '성격적 강약점 알려달라햇어', time: '오후 10:24', isMe: false, unreadCount: 1 },
-    { id: 'm12', senderId: 'user1', senderName: '너굴맨', avatar: 'https://i.pravatar.cc/150?u=1', text: 'ㅅ발', time: '오후 10:24', isMe: false, unreadCount: 1 },
-    { id: 'm13', senderId: 'me', senderName: '나', avatar: '', text: 'ㅇ', time: '오후 10:25', isMe: true, unreadCount: 1 },
+    { id: 'm2', senderId: 'user1', senderName: '너굴맨', avatar: 'https://i.pravatar.cc/150?u=1', text: '아니 ㅈㄴ황당해', time: '오후 10:07', isMe: false },
+    { id: 'm3', senderId: 'user1', senderName: '너굴맨', avatar: 'https://i.pravatar.cc/150?u=1', text: '10년동안 당연히 날 책임져야겠지', time: '오후 10:08', isMe: false },
+    { id: 'm4', senderId: 'user1', senderName: '너굴맨', avatar: 'https://i.pravatar.cc/150?u=1', text: '30대가되면 더 치열하게 나를 책임져야겠지 ㅅ발', time: '오후 10:08', isMe: false },
+    { id: 'm5', senderId: 'user1', senderName: '너굴맨', avatar: 'https://i.pravatar.cc/150?u=1', text: '뭔 내 인생흐름을 간단정리했다는거야? 그냥 모든사람의 인생이그렇잖아', time: '오후 10:08', isMe: false },
+    { id: 'm6', senderId: 'user1', senderName: '너굴맨', avatar: 'https://i.pravatar.cc/150?u=1', text: '40대가되면더더욱치열하게나를책임지고노후를대비하겠지', time: '오후 10:09', isMe: false },
+    { id: 'm7', senderId: 'user1', senderName: '너굴맨', avatar: 'https://i.pravatar.cc/150?u=1', text: '존나당연한말하고릿어', time: '오후 10:09', isMe: false },
+    { id: 'm8', senderId: 'user2', senderName: '🤓 사이코패스', avatar: 'https://i.pravatar.cc/150?u=2', text: 'ㅋㅋㅋㅋㅋㅋㅋ', time: '오후 10:10', isMe: false },
+    { id: 'm9', senderId: 'user2', senderName: '🤓 사이코패스', avatar: 'https://i.pravatar.cc/150?u=2', text: '장점고 ㅏ 단점', time: '오후 10:10', isMe: false },
+    { id: 'm10', senderId: 'user2', senderName: '🤓 사이코패스', avatar: 'https://i.pravatar.cc/150?u=2', text: '말해달라고해봐', time: '오후 10:10', isMe: false },
+    { id: 'm11', senderId: 'user1', senderName: '너굴맨', avatar: 'https://i.pravatar.cc/150?u=1', text: '성격적 강약점 알려달라햇어', time: '오후 10:24', isMe: false },
+    { id: 'm12', senderId: 'user1', senderName: '너굴맨', avatar: 'https://i.pravatar.cc/150?u=1', text: 'ㅅ발', time: '오후 10:24', isMe: false },
+    { id: 'm13', senderId: 'me', senderName: '나', avatar: '', text: 'ㅇ', time: '오후 10:25', isMe: true },
   ],
   '6': [
     { id: 'm1', type: 'system', text: '2025년 3월 31일 월요일' },
@@ -206,7 +211,7 @@ export default function App() {
   }, [messages, activeChatId]);
 
   return (
-    <div className="flex h-screen w-full bg-gray-100 font-sans overflow-hidden justify-center items-center">
+    <div className="flex h-[100dvh] w-full bg-gray-100 font-sans overflow-hidden justify-center items-center">
       <div className="w-full h-full sm:max-w-[774px] bg-white relative shadow-2xl flex flex-col overflow-hidden sm:border sm:border-gray-200">
         
         {!activeChatId ? (
