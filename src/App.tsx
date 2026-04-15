@@ -206,30 +206,30 @@ const MOCK_MESSAGES = {
     { id: 'm4_26', senderId: 'me', senderName: '나', avatar: '', text: '안 물어봤으니까 ㄲㅈ라고 좀', time: '오후 4:15', isMe: true },
   ],
   '5': [
-    { id: 'm5_1', type: 'system', text: '2026년 4월 10일 금요일' },
-    { id: 'm5_2', senderId: 'me', senderName: '나', avatar: '', text: '도성아', time: '오후 6:00', isMe: true },
-    { id: 'm5_3', senderId: 'me', senderName: '나', avatar: '', text: '야', time: '오후 6:00', isMe: true },
-    { id: 'm5_4', senderId: 'me', senderName: '나', avatar: '', text: '야', time: '오후 6:00', isMe: true },
-    { id: 'm5_5', senderId: 'me', senderName: '나', avatar: '', text: '야', time: '오후 6:00', isMe: true },
-    { id: 'm5_6', senderId: 'me', senderName: '나', avatar: '', text: '야', time: '오후 6:00', isMe: true },
-    { id: 'm5_7', senderId: 'me', senderName: '나', avatar: '', text: '야', time: '오후 6:00', isMe: true },
-    { id: 'm5_8', senderId: 'user11', senderName: 'BAPE 하도성', avatar: 'https://i.postimg.cc/wjMsJjbG/hadoseong.png', text: '왜 형', time: '오후 6:05', isMe: false },
-    { id: 'm5_9', senderId: 'me', senderName: '나', avatar: '', text: '쟤 왜 저럼?', time: '오후 6:06', isMe: true },
-    { id: 'm5_10', senderId: 'me', senderName: '나', avatar: '', text: '또 사고침?', time: '오후 6:06', isMe: true },
-    { id: 'm5_11', senderId: 'user11', senderName: 'BAPE 하도성', avatar: 'https://i.postimg.cc/wjMsJjbG/hadoseong.png', text: 'ㅇㅇ', time: '오후 6:10', isMe: false },
-    { id: 'm5_12', senderId: 'user11', senderName: 'BAPE 하도성', avatar: 'https://i.postimg.cc/wjMsJjbG/hadoseong.png', text: '돈떨어졌대', time: '오후 6:10', isMe: false },
-    { id: 'm5_13', senderId: 'me', senderName: '나', avatar: '', text: '아 ㅆㅂ 어쩐지 연락하더라', time: '오후 6:12', isMe: true },
-    { id: 'm5_14', senderId: 'me', senderName: '나', avatar: '', text: '연락 한번도 안하던새끼가', time: '오후 6:12', isMe: true },
-    { id: 'm5_15', senderId: 'me', senderName: '나', avatar: '', text: '와 좆같네 진짜', time: '오후 6:12', isMe: true },
-    { id: 'm5_16', senderId: 'user11', senderName: 'BAPE 하도성', avatar: 'https://i.postimg.cc/wjMsJjbG/hadoseong.png', text: '나한테 200 빌려가고 안 갚음', time: '오후 6:15', isMe: false },
-    { id: 'm5_17', senderId: 'user11', senderName: 'BAPE 하도성', avatar: 'https://i.postimg.cc/wjMsJjbG/hadoseong.png', text: '빌려주지 마', time: '오후 6:15', isMe: false },
-    { id: 'm5_18', senderId: 'me', senderName: '나', avatar: '', text: '왜 빌려줌 그걸? 호구임?', time: '오후 6:16', isMe: true },
-    { id: 'm5_19', senderId: 'user11', senderName: 'BAPE 하도성', avatar: 'https://i.postimg.cc/wjMsJjbG/hadoseong.png', text: '걍 준다는 생각으로 ㅇㅇ', time: '오후 6:20', isMe: false },
-    { id: 'm5_20', senderId: 'user11', senderName: 'BAPE 하도성', avatar: 'https://i.postimg.cc/wjMsJjbG/hadoseong.png', text: '에휴', time: '오후 6:20', isMe: false },
-    { id: 'm5_21', senderId: 'user11', senderName: 'BAPE 하도성', avatar: 'https://i.postimg.cc/wjMsJjbG/hadoseong.png', text: '시발 진짜', time: '오후 6:20', isMe: false },
-    { id: 'm5_22', senderId: 'me', senderName: '나', avatar: '', text: '나와라', time: '오후 6:25', isMe: true },
-    { id: 'm5_23', senderId: 'me', senderName: '나', avatar: '', text: '닭갈비사줌', time: '오후 6:25', isMe: true },
-    { id: 'm5_24', senderId: 'user11', senderName: 'BAPE 하도성', avatar: 'https://i.postimg.cc/wjMsJjbG/hadoseong.png', text: '예형님', time: '오후 6:26', isMe: false },
+    { id: 'm5_1', type: 'system', text: '2025년 3월 31일 월요일' },
+    { id: 'm5_2', senderId: 'me', senderName: '나', avatar: '', text: '도성아', time: '오후 8:35', isMe: true },
+    { id: 'm5_3', senderId: 'me', senderName: '나', avatar: '', text: '야', time: '오후 8:35', isMe: true },
+    { id: 'm5_4', senderId: 'me', senderName: '나', avatar: '', text: '야', time: '오후 8:35', isMe: true },
+    { id: 'm5_5', senderId: 'me', senderName: '나', avatar: '', text: '야', time: '오후 8:35', isMe: true },
+    { id: 'm5_6', senderId: 'me', senderName: '나', avatar: '', text: '야', time: '오후 8:35', isMe: true },
+    { id: 'm5_7', senderId: 'me', senderName: '나', avatar: '', text: '야', time: '오후 8:35', isMe: true },
+    { id: 'm5_8', senderId: 'user11', senderName: 'BAPE 하도성', avatar: 'https://i.postimg.cc/wjMsJjbG/hadoseong.png', text: '왜 형', time: '오후 8:40', isMe: false },
+    { id: 'm5_9', senderId: 'me', senderName: '나', avatar: '', text: '쟤 왜 저럼?', time: '오후 8:41', isMe: true },
+    { id: 'm5_10', senderId: 'me', senderName: '나', avatar: '', text: '또 사고침?', time: '오후 8:41', isMe: true },
+    { id: 'm5_11', senderId: 'user11', senderName: 'BAPE 하도성', avatar: 'https://i.postimg.cc/wjMsJjbG/hadoseong.png', text: 'ㅇㅇ', time: '오후 8:45', isMe: false },
+    { id: 'm5_12', senderId: 'user11', senderName: 'BAPE 하도성', avatar: 'https://i.postimg.cc/wjMsJjbG/hadoseong.png', text: '돈떨어졌대', time: '오후 8:45', isMe: false },
+    { id: 'm5_13', senderId: 'me', senderName: '나', avatar: '', text: '아 ㅆㅂ 어쩐지 연락하더라', time: '오후 8:47', isMe: true },
+    { id: 'm5_14', senderId: 'me', senderName: '나', avatar: '', text: '연락 한번도 안하던새끼가', time: '오후 8:47', isMe: true },
+    { id: 'm5_15', senderId: 'me', senderName: '나', avatar: '', text: '와 좆같네 진짜', time: '오후 8:47', isMe: true },
+    { id: 'm5_16', senderId: 'user11', senderName: 'BAPE 하도성', avatar: 'https://i.postimg.cc/wjMsJjbG/hadoseong.png', text: '나한테 200 빌려가고 안 갚음', time: '오후 8:50', isMe: false },
+    { id: 'm5_17', senderId: 'user11', senderName: 'BAPE 하도성', avatar: 'https://i.postimg.cc/wjMsJjbG/hadoseong.png', text: '빌려주지 마', time: '오후 8:50', isMe: false },
+    { id: 'm5_18', senderId: 'me', senderName: '나', avatar: '', text: '왜 빌려줌 그걸? 호구임?', time: '오후 8:51', isMe: true },
+    { id: 'm5_19', senderId: 'user11', senderName: 'BAPE 하도성', avatar: 'https://i.postimg.cc/wjMsJjbG/hadoseong.png', text: '걍 준다는 생각으로 ㅇㅇ', time: '오후 8:55', isMe: false },
+    { id: 'm5_20', senderId: 'user11', senderName: 'BAPE 하도성', avatar: 'https://i.postimg.cc/wjMsJjbG/hadoseong.png', text: '에휴', time: '오후 8:55', isMe: false },
+    { id: 'm5_21', senderId: 'user11', senderName: 'BAPE 하도성', avatar: 'https://i.postimg.cc/wjMsJjbG/hadoseong.png', text: '시발 진짜', time: '오후 8:55', isMe: false },
+    { id: 'm5_22', senderId: 'me', senderName: '나', avatar: '', text: '나와라', time: '오후 9:00', isMe: true },
+    { id: 'm5_23', senderId: 'me', senderName: '나', avatar: '', text: '닭갈비사줌', time: '오후 9:00', isMe: true },
+    { id: 'm5_24', senderId: 'user11', senderName: 'BAPE 하도성', avatar: 'https://i.postimg.cc/wjMsJjbG/hadoseong.png', text: '예형님', time: '오후 9:01', isMe: false },
   ],
   '6': [
     { id: 'm6_1', type: 'system', text: '2025년 3월 31일 월요일' },
@@ -487,36 +487,25 @@ export default function App() {
             <div 
               ref={scrollContainerRef}
               onScroll={handleScroll}
-              className="flex-1 overflow-y-auto px-4 py-4 space-y-2"
+              className="flex-1 overflow-y-auto px-4 py-4 space-y-2 relative"
             >
               
               {/* Blocked User Warning */}
               {activeChat?.isBlocked && (
-                <div className="mb-4">
-                  <div className="bg-white rounded-lg shadow-sm flex divide-x divide-gray-200 mb-2">
+                <div className="sticky top-0 z-20 mb-4">
+                  <div className="bg-white/95 backdrop-blur-sm rounded-xl shadow-sm flex divide-x divide-gray-200">
                     <button className="flex-1 py-3 flex items-center justify-center space-x-1 text-gray-700 font-medium">
                       <UserPlus className="w-5 h-5" />
                       <span>추가</span>
                     </button>
                     <button className="flex-1 py-3 flex items-center justify-center space-x-1 text-gray-700 font-medium">
                       <Ban className="w-5 h-5" />
-                      <span>차단</span>
+                      <span>차단해제</span>
                     </button>
                     <button className="flex-1 py-3 flex items-center justify-center space-x-1 text-red-500 font-medium">
                       <AlertTriangle className="w-5 h-5" />
                       <span>신고</span>
                     </button>
-                  </div>
-                  <div className="bg-white rounded-lg p-4 shadow-sm text-[13px] leading-relaxed">
-                    <div className="flex items-start space-x-2">
-                      <AlertTriangle className="w-5 h-5 text-red-500 shrink-0 mt-0.5" />
-                      <div>
-                        <p className="text-gray-800">
-                          친구로 등록되지 않은 사용자입니다. 금전 요구 등으로 인한 피해를 입지 않도록 주의해 주세요.
-                        </p>
-                        <a href="#" className="text-blue-500 mt-1 inline-block">주의사항 보기</a>
-                      </div>
-                    </div>
                   </div>
                 </div>
               )}
@@ -615,27 +604,36 @@ export default function App() {
             )}
 
             {/* Input Area */}
-            <div className="bg-white px-3 py-2 flex items-end space-x-2 shrink-0">
-              <button className="p-2 text-gray-500 hover:text-gray-700 shrink-0 mb-0.5">
-                <Plus className="w-6 h-6" />
-              </button>
-              <div className="flex-1 bg-gray-100 rounded-full flex items-center px-4 py-2 min-h-[40px]">
-                <input 
-                  type="text" 
-                  value={inputValue}
-                  onChange={(e) => setInputValue(e.target.value)}
-                  onKeyDown={(e) => e.key === 'Enter' && handleSendMessage()}
-                  placeholder="메시지 입력" 
-                  className="flex-1 bg-transparent outline-none text-[15px]"
-                />
-                <button onClick={handleSendMessage} className="text-gray-500 hover:text-gray-700 ml-2">
-                  <Smile className="w-6 h-6" />
+            {activeChat?.isBlocked ? (
+              <div className="bg-white px-4 py-5 flex justify-center items-center shrink-0 border-t border-gray-100">
+                <div className="flex items-center space-x-2 text-black text-[15px]">
+                  <div className="w-5 h-5 rounded-full bg-black text-white flex items-center justify-center text-sm font-bold">!</div>
+                  <span>차단 친구와는 대화할 수 없습니다.</span>
+                </div>
+              </div>
+            ) : (
+              <div className="bg-white px-3 py-2 flex items-end space-x-2 shrink-0">
+                <button className="p-2 text-gray-500 hover:text-gray-700 shrink-0 mb-0.5">
+                  <Plus className="w-6 h-6" />
+                </button>
+                <div className="flex-1 bg-gray-100 rounded-full flex items-center px-4 py-2 min-h-[40px]">
+                  <input 
+                    type="text" 
+                    value={inputValue}
+                    onChange={(e) => setInputValue(e.target.value)}
+                    onKeyDown={(e) => e.key === 'Enter' && handleSendMessage()}
+                    placeholder="메시지 입력" 
+                    className="flex-1 bg-transparent outline-none text-[15px]"
+                  />
+                  <button onClick={handleSendMessage} className="text-gray-500 hover:text-gray-700 ml-2">
+                    <Smile className="w-6 h-6" />
+                  </button>
+                </div>
+                <button className="p-2 text-gray-500 hover:text-gray-700 shrink-0 mb-0.5">
+                  <Hash className="w-6 h-6" />
                 </button>
               </div>
-              <button className="p-2 text-gray-500 hover:text-gray-700 shrink-0 mb-0.5">
-                <Hash className="w-6 h-6" />
-              </button>
-            </div>
+            )}
 
           </div>
         )}
